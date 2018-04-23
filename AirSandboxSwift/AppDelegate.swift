@@ -29,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print(error.localizedDescription)
         }
         
+        // test
         SAirSandbox.shareInstance.enableSwip()
         
         return true
